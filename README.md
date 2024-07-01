@@ -32,3 +32,23 @@ problema 3 "Stabilire il vincitore, in base a chi fa il punteggio più alto."
 1.creo una condizione, se la variabile del giocatore è maggiore rispetto a quella del computer allora stamperò in console "Human has won!"
 2. altrimenti se la variabile del computer è maggiore rispetto a quella del computer allora stamperò in console "Computer has won!"
 3. altrimenti se entrambe le variabili hanno lo stesso valore, allora stamperò in console "Tie!"
+
+soluzione 2 (mail)
+
+problema 1 "Chiedi all’utente la sua email (tramite prompt o input, a voi la scelta),"
+1.creo un input che vada a richiedere la mail
+2.creo un bottone che mi servirà per controllare se esso è nella lista
+
+problema 2 "controlla che sia nella lista di chi può accedere"
+1.creo con un array a cui vado ad assegnare varie email come valore
+2.richiamo il bottone tramite id
+3.lascio il bottone in attesa di un evento click
+4.all'interno di questo evento, richiamo il valore dell'input tramite id
+5.creo una variabile di controllo
+6.ciclo l'array e confronto l'elemento che sto ciclando con la parola inserita nell'input
+7.se la condizione risulta vera, allora imposto la variabile di controllo a "true"
+
+problema 3 "stampa un messaggio appropriato sull'esito del controllo"
+1.creo 2 messaggi diversi tramite il console log che si basano sul valore della variabile di controllo
+2.se la variabile di controllo risulta "true" allora mostro "Associated mail found"
+3.altrimenti mostro "mail not found"
